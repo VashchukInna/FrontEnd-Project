@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ship or Sheep</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sign-up.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="fa fa-bars fa-lg"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="" class="logo">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">about</a>
+                    </li>
+                    <li><a href="#screens">screens</a>
+                    </li>
+                    <li><a href="#reviews">reviews</a>
+                    </li>
+                    <li><a class="getApp" href="#getApp">get app</a>
+                    </li>
+                    <li><a href="#support">support</a>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-popup">
+                <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+                <h3 class="white">Sign Up</h3>
+                <form action="" class="popup-form">
+                    <input type="text" class="form-control form-white" placeholder="Full Name">
+                    <input type="text" class="form-control form-white" placeholder="Email Address">
+                    <div class="checkbox-holder text-left">
+                        <div class="checkbox">
+                            <input type="checkbox" value="None" id="squaredOne" name="check"/>
+                            <label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="tp-banner-container">
+        <div class="tp-banner">
+            <ul>
+                <!-- SLIDE 1 -->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
+                    <img src="img/sheep-bg.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top"
+                         data-bgrepeat="no-repeat">
+
+                    <div class="tp-caption large_white_bold sft" data-x="100" data-y="center" data-hoffset="0"
+                         data-voffset="-90" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                        Ship or Sheep
+                    </div>
+                    <div class="tp-caption large_white_light sfr" data-x="500" data-y="center" data-hoffset="0"
+                         data-voffset="-90" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
+                        App
+                    </div>
+
+                    <div class="tp-caption sfb hidden-xs" data-x="100" data-y="center" data-hoffset="0"
+                         data-voffset="20" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                        <a href="#about" class="btn btn-primary inverse btn-lg">LEARN MORE</a>
+                    </div>
+                    <div class="tp-caption sfr hidden-xs" data-x="280" data-y="center" data-hoffset="0"
+                         data-voffset="20" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
+                        <a href="#getApp" class="btn btn-default btn-lg">GET APP</a>
+                    </div>
+
+                </li>
+                <!-- SLIDE 2 -->
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <img src="img/sheep-bg2.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top"
+                         data-bgrepeat="no-repeat">
+                </li>
+
+                <!-- SLIDE 3 -->
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
+                    <img src="img/sheep-bg3.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top"
+                         data-bgrepeat="no-repeat">
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+<div class="wrapper">
+
+    <section id="about">
+        <div class="container">
+
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>About Us</h1>
+                <div class="divider"></div>
+                <p>The Language Hearing Game</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="about-item scrollpoint sp-effect2">
+                        <i class="fa fa-download fa-2x"></i>
+                        <h3>Free</h3>
+                        <p>No in app purchases.<br>
+                            No ads. 100% fun.<br>
+                            100% free.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="about-item scrollpoint sp-effect5">
+                        <i class="fa fa-mobile fa-2x"></i>
+                        <h3>Useful</h3>
+                        <p>Learning a language? <br> Ship or Sheep is an effective trainer for your ears, helping you
+                            adapt
+                            to the sounds of a language and hear the words better.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="about-item scrollpoint sp-effect5">
+                        <i class="fa fa-users fa-2x"></i>
+                        <h3>Fun</h3>
+                        <p>A delightful challenge for your ears. Think you know when an American says ship, not sheep?
+                            A French says <br> Sioux, not su?
+                            Pick a language and see how high you can score.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="about-item scrollpoint sp-effect1">
+                        <i class="fa fa-sliders fa-2x"></i>
+                        <h3>Multiple Languages</h3>
+                        <p>You can play against words from English, French, German, or Spanish.
+                            More languages coming soon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="screens">
+        <div class="container">
+
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Screens</h1>
+                <div class="divider"></div>
+                <p>See what’s included in the App</p>
+            </div>
+
+            <div class="filter scrollpoint sp-effect3">
+                <a href="javascript:void(0)" class="button js-filter-all active">All Screens</a>
+                <!--<a href="javascript:void(0)" class="button js-filter-one">User Access</a>-->
+                <!--<a href="javascript:void(0)" class="button js-filter-two">Social Network</a>-->
+                <!--<a href="javascript:void(0)" class="button js-filter-three">Media Players</a>-->
+            </div>
+            <div class="slider filtering scrollpoint sp-effect5">
+                <div class="one">
+                    <img class="first-image" src="img/screenshot-01.png" alt="">
+                </div>
+                <div class="two">
+                    <img class="second-image" src="img/screenshot-03.png" alt="">
+                </div>
+                <div class="three">
+                    <img class="third-image" src="img/screenshot-02.png" alt="">
+                </div>
+                <div class="one">
+                    <img class="fourth-image" src="img/screenshot-04.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1>Reviews</h1>
+                <div class="divider"></div>
+                <p>Read What's The People Are Saying About Us</p>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
+                    <div class="review-filtering">
+                        <div class="review">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="http://api.randomuser.me/portraits/women/94.jpg" alt=""
+                                             class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“I love Ship or Sheep, I highly recommended it, Everyone Try It Now”</h3>
+                                        <p>
+                                            - Krin Fox
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review rollitin">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="http://api.randomuser.me/portraits/men/70.jpg" alt=""
+                                             class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“Ship or Sheep Is The Best Stable, Fast App I Have Ever Experienced”</h3>
+                                        <p>
+                                            - Theodore Willis
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review rollitin">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="http://api.randomuser.me/portraits/men/93.jpg" alt=""
+                                             class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“Keep It Up Guys Your Work Rules, Cheers :)”</h3>
+                                        <p>
+                                            - Ricky Grant
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="getApp">
+        <div class="container-fluid">
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1>Get App</h1>
+                <div class="divider"></div>
+                <p>Choose your native platform and get started!</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hanging-phone scrollpoint sp-effect2 hidden-xs">
+                    </div>
+                    <div class="platforms">
+                        <a href="#" class="btn btn-primary inverse scrollpoint sp-effect1">
+                            <i class="fa fa-android fa-3x pull-left"></i>
+                            <span>Download for</span><br>
+                            <b>Android</b>
+                        </a>
+
+                        <a href="#" class="btn btn-primary inverse scrollpoint sp-effect2">
+                            <i class="fa fa-apple fa-3x pull-left"></i>
+                            <span>Download for</span><br>
+                            <b>Apple IOS</b>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="doublediagonal">
+        <div class="container">
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Support</h1>
+                <div class="divider"></div>
+                <p>For more info and support, contact us!</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 scrollpoint sp-effect1">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea cols="30" rows="10" class="form-control"
+                                              placeholder="Your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <i class="fa fa-map-marker fa-2x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">4, Some street, California, USA</h4>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <i class="fa fa-envelope fa-2x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        <a href="mailto:shiporsheep@gmail.com">shiporsheep@gmail.com</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <i class="fa fa-phone fa-2x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">+1 234 567890</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <a href="#" class="scrollpoint sp-effect3">
+                <img src="img/logo.png" alt="" class="logo">
+            </a>
+            <div class="social">
+                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+            </div>
+            <div class="rights">
+                <p>Copyright &copy; 2016</p>
+                <p>Template by <a href="https://vk.com/id31750043" target="_blank">Inna Vashchuk</a></p>
+            </div>
+        </div>
+
+    </footer>
+
+
+</div>
+<script type="text/javascript" src="app/modernizr.custom.32033.js"></script>
+<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="vendor/jquery-1.11.1.min.js"></script>
+<script src="vendor/bootstrap.min.js"></script>
+<script src="vendor/slick.min.js"></script>
+<script src="vendor/placeholder.min.js"></script>
+<script src="vendor/jquery.themepunch.plugins.min.js"></script>
+<script src="vendor/jquery.themepunch.revolution.min.js"></script>
+<script src="vendor/waypoints.min.js"></script>
+<script src="app/scripts.js"></script>
+<script src="app/skills.js"></script>
+</body>
+
+</html>
